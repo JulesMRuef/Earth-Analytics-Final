@@ -1,1 +1,1 @@
-# Earth-Analytics-Final
+# Earth Analytics Final
