@@ -27,3 +27,6 @@ Research S. nutans, and find out what optimal values are for each variable you a
 For each digital number in each raster, assign a value from 0 to 1 for how close that grid square is to the optimum range (1=optimal, 0=incompatible).
 Combine your layers by multiplying them together. This will give you a single suitability number for each square.
 Optionally, you may apply a threshold to make the most suitable areas pop on your map.
+
+
+https://github.com/earthlab-education/Earth-Analytics-2023-01-Intro/issues/634#issue-2015535090
