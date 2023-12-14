@@ -1,4 +1,4 @@
-# # A Habitat Suitability Model for Sorghastrum Nutans: Earth Analytics Final
+# A Habitat Suitability Model for Sorghastrum Nutans: Earth Analytics Final
 
 Sorghastrum Nutans is a grass native to North America. In the past 50 years, its range has moved northward. Our changing climate is changing where key grassland species can live, and grassland management and restoration practices will need to take this into account.
 
