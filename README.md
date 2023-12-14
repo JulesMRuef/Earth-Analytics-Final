@@ -1,18 +1,20 @@
-# Earth Analytics Final
+# # A Habitat Suitability Model for Sorghastrum Nutans: Earth Analytics Final
 
+Sorghastrum Nutans is a grass native to North America. In the past 50 years, its range has moved northward. Our changing climate is changing where key grassland species can live, and grassland management and restoration practices will need to take this into account.
 
-Our changing climate is changing where key grassland species can live, and grassland management and restoration practices will need to take this into account.
+In this notebook I will (attempt to) create modular, reporducible workfolow for the model that combines multiple data layers related to soil, topography, and climate. Another goal of this project was also to write DRY, modular code and create a reproducible workflow for the model.
 
+My reproducible scientific workflow will: 
 
+Define the study area:
 
-In this project, you will create a habitat suitability model for Sorghastrum nutans, a grass native to North America. In the past 50 years, its range has moved northward. The model will be based on combining multiple data layers related to soil, topography, and climate. You will also demonstrate the coding skills covered in this class by creating a modular, reproducible workflow for the model.
+Download  USFS National Grassland Units and select your study site(s). I choose to download two, Fort Pierre National Grassland and Lyndon B. Johnson National Grasslands. Users can select different grasslands of interest. 
 
-You will create a reproducible scientific workflow
-Your workflow should:
+Fit a model: For each selected grassland:
 
-Define your study area: Download the USFS National Grassland Units and select your study site(s). Undergraduate students may choose one grassland; graduate students must choose AT LEAST 2.
-Fit a model: For each grassland:
 Download model variables as raster layers covering your study area envelope, including:
+
+
 At least one soil variable from the POLARIS dataset
 Elevation from the SRTM (available from the APPEEARS API)
 At least one climate variable from the MACAv2 dataset, accessible from Climate Toolbox. *Undergraduate students may download a single year and scenario; Graduate students should download at least two)
