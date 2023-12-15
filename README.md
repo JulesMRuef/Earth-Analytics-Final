@@ -1,6 +1,6 @@
 # Habitat Suitability Modeling for Sorghastrum nutans
 
-![Sorghastrum nutans]([url_to_your_image](https://cdn.plantatlas.org/img/specimens/USF/32833.jpg))
+![Sorghastrum nutans](https://cdn.plantatlas.org/img/specimens/USF/32833.jpg)
 
 ## Introduction
 
