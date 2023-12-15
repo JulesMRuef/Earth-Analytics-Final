@@ -15,9 +15,77 @@
 - **Image 3:**
   [Description of Image 3]
 
+# Habitat Suitability Modeling for *Sorghastrum nutans*
+
 ## Introduction
 
-Our changing climate is affecting the distribution of key grassland species, necessitating a reevaluation of grassland management and restoration practices. In this project, we aim to create a habitat suitability model for *Sorghastrum nutans* (Indiangrass), a native North American grass that has exhibited a northward range expansion in the past 50 years. The model will integrate multiple data layers related to soil, topography, and climate to understand and predict suitable habitats for *S. nutans*.
+Our changing climate is affecting the distribution of key grassland species, necessitating a reevaluation of grassland management and restoration practices. In this project, we aim to create a habitat suitability model for *Sorghastrum nutans* (Indiangrass), a native North American grass that has exhibited a northward range expansion in the past 50 years.
+
+This repository contains a habitat suitability model for *Sorghastrum nutans*. The model integrates multiple data layers related to soil, topography, and climate to understand and predict suitable habitats for *S. nutans*.
+
+## Table of Contents
+
+1. [About *Sorghastrum Nutans*](#about-sorghastrum-nutans)
+2. [Habitat and Range](#habitat-and-range)
+3. [Thermal Range](#thermal-range)
+4. [Physical Characteristics](#physical-characteristics)
+5. [Uses](#uses)
+6. [Ecological Importance](#ecological-importance)
+7. [Ethnobotany](#ethnobotany)
+8. [Weedy or Invasive](#weedy-or-invasive)
+9. [Pests and Potential Problems](#pests-and-potential-problems)
+10. [Control](#control)
+11. [Literature Cited](#literature-cited)
+12. [Running the Code for Any Grassland](#running-the-code-for-any-grassland)
+
+## About *Sorghastrum nutans*
+
+*Sorghastrum nutans*, commonly known as Indiangrass, is a warm-season grass native to North America. Key characteristics include:
+
+### Habitat and Range
+
+Found in prairies, meadows, and open woodlands, with a native range extending from Canada to Mexico. Today it is generally found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah.
+
+### Thermal Range
+
+Thrives in warm temperatures, with optimal growth between 75 to 90 degrees Fahrenheit. Goes dormant during colder winter months. A native, warm season (C4), perennial with short, scaly rhizomes.
+
+### Physical Characteristics
+
+Grows in clumps, reaching heights of 3 to 7 feet, with long, narrow, bluish-green leaves. Produces distinctive bronze-colored flower heads in late summer and fall.
+
+### Uses
+
+- **Forage:** Highly palatable to all classes of livestock, suitable for both grazing and hay when properly managed.
+- **Wildlife:** Provides ground cover and nesting areas for gamebirds and songbirds.
+
+### Ecological Importance
+
+Plays a crucial role in preventing soil erosion, providing habitat for wildlife, and contributing to ecosystem health.
+
+- **Cultural Significance:** Historically used by Native American tribes for basket weaving, thatching, and as a food source for wildlife.
+
+## Adaptation
+
+Indiangrass is adapted to deep, moist soils ranging from heavy clays to sand with a pH range of 4.8 to 8.0. It has a medium tolerance to salinity and drought. Indiangrass is adapted to periodic burning and survives by sprouting from underground rhizomes.
+
+## Ethnobotany
+
+The Lakota name for Indiangrass means "red grass with fluffy light–colored end." Native Americans wove Indiangrass into baskets and mats, often dyeing it and decorating it with beads, bark, or quills.
+
+## Weedy or Invasive
+
+This plant may become weedy or invasive in some regions or habitats and may displace desirable vegetation if not properly managed.
+
+Please consult the PLANTS Web site and your state’s Department of Natural Resources for this plant’s current status.
+
+## Pests and Potential Problems
+
+Indiangrass may serve as a host plant for leaf spot pathogens. Pests include rust fungi. Environmental concerns include potential spread to adjacent areas.
+
+## Literature Cited
+
+A list of references providing further information on Indiangrass.
 
 ## Project Goals
 
@@ -39,133 +107,7 @@ Our changing climate is affecting the distribution of key grassland species, nec
    - Provide clear documentation for each step of the workflow.
    - Use a README file to introduce the project, its objectives, and the methodology employed.
 
-## About *Sorghastrum nutans*
-
-*Sorghastrum nutans*, commonly known as Indiangrass, is a warm-season grass native to North America. Key characteristics include:
-
-- **Habitat and Range:** Found in prairies, meadows, and open woodlands, with a native range extending from Canada to Mexico. Today it is generally found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah.
-  
-- **Thermal Range:** Thrives in warm temperatures, with optimal growth between 75 to 90 degrees Fahrenheit. Goes dormant during colder winter months. A native, warm season (C4), perennial with short, scaly rhizomes. It grows from 3 to 8 feet tall, with glabrous culms and flat, 10 to 20 inches long leaves. 
-
-- **Physical Characteristics:** Grows in clumps, reaching heights of 3 to 7 feet, with long, narrow, bluish-green leaves. Produces distinctive bronze-colored flower heads in late summer and fall.
-
-- **Ecological Importance:** Plays a crucial role in preventing soil erosion, providing habitat for wildlife, and contributing to ecosystem health.
-
-- **Cultural Significance:** Historically used by Native American tribes for basket weaving, thatching, and as a food source for wildlife.
-
-- **Adaptation:** Adapted to deep, moist soils ranging from heavy clays to sand with a pH range of 4.8 to 8.0. Has a medium tolerance to salinity and drought.
-
-- **Uses:** Highly palatable to all classes of livestock, suitable for grazing and hay. Provides ground cover and nesting areas for gamebirds and songbirds. Also used by white-tailed deer for cover. Has cultural significance, historically used by Native Americans for basket weaving.
-
-Understanding the dynamics of *Sorghastrum nutans* is essential for monitoring the impacts of environmental changes on native plant species and ecosystems.
-
 ![Indian Grass Map](https://soilcropandmore.info/crops/Grasses/Indiangrass/Sorghastrum_nutans_map.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-# Indiangrass Habitat Suitability Model
-
-## Overview
-
-This repository contains a habitat suitability model for *Sorghastrum nutans* (Indiangrass), a native warm-season grass. The model assesses environmental factors to predict suitable habitats for Indiangrass growth.
-
-## Table of Contents
-
-- [Description](#description)
-- [Distribution](#distribution)
-- [Adaptation](#adaptation)
-- [Uses](#uses)
-- [Ethnobotany](#ethnobotany)
-- [Status](#status)
-- [Wetland Indicator](#wetland-indicator)
-- [Weedy or Invasive](#weedy-or-invasive)
-- [Planting Guidelines](#planting-guidelines)
-- [Management](#management)
-- [Pests and Potential Problems](#pests-and-potential-problems)
-- [Environmental Concerns](#environmental-concerns)
-- [Control](#control)
-- [Seeds and Plant Production](#seeds-and-plant-production)
-- [Cultivars, Improved, and Selected Materials](#cultivars-improved-and-selected-materials)
-- [Literature Cited](#literature-cited)
-- [Running the Code for Any Grassland](#running-the-code-for-any-grassland)
-
-## Description
-
-Indiangrass (*Sorghastrum nutans*) is a native warm-season perennial grass known for its adaptation to a variety of habitats. This README provides information on its characteristics, distribution, adaptation, uses, and more.
-
-## Distribution
-
-Indiangrass is found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah. For current distribution, please consult the Plant Profile page for this species on the PLANTS Web site.
-
-## Adaptation
-
-Indiangrass is adapted to deep, moist soils ranging from heavy clays to sand with a pH range of 4.8 to 8.0. It has a medium tolerance to salinity and drought. Indiangrass is adapted to periodic burning and survives by sprouting from underground rhizomes.
-
-## Uses
-
-- **Forage:** Highly palatable to all classes of livestock, suitable for both grazing and hay when properly managed.
-- **Wildlife:** Provides ground cover and nesting areas for gamebirds and songbirds. White-tailed deer utilize the tall grass for cover. Native bees gather nesting materials, and it serves as a larval host and adult food source for certain butterfly species.
-
-## Ethnobotany
-
-The Lakota name for Indiangrass means "red grass with fluffy light–colored end." Native Americans wove Indiangrass into baskets and mats, often dyeing it and decorating it with beads, bark, or quills.
-
-## Status
-
-Not listed as threatened or endangered.
-
-## Wetland Indicator
-
-Indiangrass is a facultative upland plant throughout the continental United States. It usually occurs in non-wetlands but may occur in wetlands.
-
-## Weedy or Invasive
-
-This plant may become weedy or invasive in some regions or habitats and may displace desirable vegetation if not properly managed.
-
-Please consult the PLANTS Web site and your state’s Department of Natural Resources for this plant’s current status.
-
-## Planting Guidelines
-
-Indiangrass seed is planted from mid-winter to late spring depending on planting conditions. The preferred method is using a no-till seed drill equipped with a native grass seed box. Contact your local NRCS Field Office or cooperative extension service for recommended planting dates.
-
-## Management
-
-During the establishment year, use mowing and herbicide applications to control annual grasses and weeds in seedling stands. Mowing should leave 6 to 12 inches of grass stubble. Grazing is not recommended during the establishment year.
-
-Indiangrass is tolerant to fire, but its response may differ in monoculture or mixed stands. Consult local authorities for guidance on prescribed burning.
-
-## Pests and Potential Problems
-
-Indiangrass may serve as a host plant for leaf spot pathogens. Pests include rust fungi. Environmental concerns include potential spread to adjacent areas.
-
-## Environmental Concerns
-
-Control methods include tillage and broad-spectrum herbicides. Consult local agricultural extension specialists for guidance.
-
-## Seeds and Plant Production
-
-Production fields should be fertilized and limed based on soil test recommendations after plants have had at least one growing season to establish.
-
-Indiangrass seed fields reach their peak production at three years and have a productive stand life of 10 to 15 years.
-
-## Cultivars, Improved, and Selected Materials
-
-This section provides information on various cultivars, germplasms, and their areas of origin.
-
-## Literature Cited
-
-A list of references providing further information on Indiangrass.
-
-
 
 ## Project Workflow
 
@@ -199,20 +141,16 @@ A list of references providing further information on Indiangrass.
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
 
-2. Install Dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Workflow Script:
 
-bash
-Copy code
-python habitat_model_workflow.py
 
-3. View Results:
 
-Explore generated figures and model outputs in the designated output directories.
+
+
+
+
+
+
 
 Contact:
 For any questions or assistance, please contact [Juilana Ruef] at [juliana.ruef@colorado.edu]. I appreciate your engagement in this habitat modeling project and look forward to your insights!
