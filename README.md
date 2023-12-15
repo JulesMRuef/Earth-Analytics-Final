@@ -1,6 +1,6 @@
 # Habitat Suitability Modeling for Sorghastrum nutans
 
-<img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 1" width="300"/> <img src="https://objects.liquidweb.services/images/201409/richard_orr_14913356819_04b763fd74_z.jpg" alt="Image 2" width="300"/> <img src="https://sowwildnatives.com/images/thumbs/0000951_indian-grass-sorghastrum-nutans.jpeg" alt="Image 3" width="300"/>
+<img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 1" width="300"/> <img                                                     src="https://objects.liquidweb.services/images/201409/richard_orr_14913356819_04b763fd74_z.jpg" alt="Image 2" width="300"/> <img src="https://sowwildnatives.com/images/thumbs/0000951_indian-grass-sorghastrum-nutans.jpeg" alt="Image 3" width="300"/>
 
 ## Introduction
 
