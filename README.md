@@ -1,5 +1,19 @@
 # Habitat Suitability Modeling for Sorghastrum nutans
 <img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Sorghastrum nutans" width="300"/>
+# Habitat Suitability Modeling for Sorghastrum nutans
+
+# Habitat Suitability Modeling for Sorghastrum nutans
+
+<img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 1" width="250"/> <img src="https://objects.liquidweb.services/images/201409/richard_orr_14913356819_04b763fd74_z.jpg" alt="Image 2" width="250"/> <img src="https://sowwildnatives.com/images/thumbs/0000951_indian-grass-sorghastrum-nutans.jpeg" alt="Image 3" width="250"/>
+
+## Introduction
+
+...
+
+## Introduction
+
+...
+
 ## Introduction
 
 Our changing climate is affecting the distribution of key grassland species, necessitating a reevaluation of grassland management and restoration practices. In this project, we aim to create a habitat suitability model for *Sorghastrum nutans* (Indiangrass), a native North American grass that has exhibited a northward range expansion in the past 50 years. The model will integrate multiple data layers related to soil, topography, and climate to understand and predict suitable habitats for *S. nutans*.
