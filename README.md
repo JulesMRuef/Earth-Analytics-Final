@@ -9,10 +9,10 @@
 </div>
 
 - **Image 1:**
-  [Description of Image 1]
+  S. Nutans Catalogued by the University of South Florida
 
 - **Image 2:**
-  [Description of Image 2]
+  S. Nutans Growing in Baltimore, Maryland (8/31/2014). Photo by Richard Orr.
 
 # Habitat Suitability Modeling for *Sorghastrum nutans*
 
