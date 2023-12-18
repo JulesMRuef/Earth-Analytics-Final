@@ -33,9 +33,12 @@ This repository contains a habitat suitability model for *Sorghastrum nutans*. T
 7. [Ethnobotany](#ethnobotany)
 8. [Weedy or Invasive](#weedy-or-invasive)
 9. [Pests and Potential Problems](#pests-and-potential-problems)
-10. [Control](#control)
+10. [Adaptability](#adaptability)
+11. [Precipitation](#precipitation)
+12. [Elevation](#elevation)
+13. [Slope](#slope)
 11. [Literature Cited](#literature-cited)
-12. [Running the Code for Any Grassland](#running-the-code-for-any-grassland)
+12. [Project Workflow](#project_workflow)
 
 ## About *Sorghastrum nutans*
 
@@ -81,6 +84,27 @@ Please consult the PLANTS Web site and your state’s Department of Natural Reso
 ## Pests and Potential Problems
 
 Indiangrass may serve as a host plant for leaf spot pathogens. Pests include rust fungi. Environmental concerns include potential spread to adjacent areas.
+
+## Adaptability
+
+S. Nutans is known for its adaptability to different soil types and environmental conditions. This adaptability could contribute to its ability to expand its range under changing conditions.
+
+## Soil pH
+
+The preferred soil pH for Sorghastrum nutans can vary, but it often thrives in slightly acidic to neutral soils. A pH range of 4.8 to 8.0 is generally considered suitable pH range.
+
+## Precipitation
+
+Sorghastrum nutans is adapted to a range of precipitation levels. It is often found in areas with moderate to high rainfall, but it can also tolerate drier conditions. While specific precipitation requirements may depend on factors such as soil moisture retention and local climate patterns a general range defined by the USDA is somewhere between 280 mm - 1140 mm (11-45 inches) of annual precipitation.
+
+## Elevation
+
+Sorghastrum nutans is a versatile grass that can be found at various elevations. It is not strictly limited to specific elevations and can thrive in lowlands as well as uplands. A broad elevation range in which S. Nutans thrives is 0 - 1,500 m above sea level
+
+## Slope
+
+The tolerance of Sorghastrum nutans to different slopes can vary, though it is important to point out that this is a prarie grass and thus would not be found in mountain ranges (with high slopes). S. Nutans is commonly found in both flat and gently sloping areas. The grass's ability to prevent soil erosion with its deep root system suggests that it can adapt to different slope gradients.
+
 
 ## Literature Cited
 
