@@ -116,7 +116,10 @@ Silletti, A., & Knapp, A. (2002). Long-term responses of the grassland co-domina
 
 Sorghastrum Nutans. Sorghastrum nutans (Indiangrass, Yellow Indiangrass) | North Carolina Extension Gardener Plant Toolbox. (n.d.). https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/
 
-## Project Workflow - a Reproducible Scientific Workflow:
+__________________________________________________________________________________________________________________________________________________________________
+
+# Project Workflow - a Reproducible Scientific Workflow:
+
 
 ### 1. Define Study Area
 - Download the USFS National Grassland Units shapefile.
