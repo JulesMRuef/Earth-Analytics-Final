@@ -1,12 +1,11 @@
-# Habitat Suitability Modeling for Sorghastrum nutans
+# Habitat Suitability Modeling for Sorghastrum nutans (S. Nutans)
 
 [![DOI](https://zenodo.org/badge/687226006.svg)](https://zenodo.org/doi/10.5281/zenodo.8408496)
 
 
 <div style="text-align:center">
-    <img src="https://sowwildnatives.com/images/thumbs/0000951_indian-grass-sorghastrum-nutans.jpeg" alt="Image 1" width="325"/>
-    <img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 2" width="325"/>
-    <img src="https://objects.liquidweb.services/images/201409/richard_orr_14913356819_04b763fd74_z.jpg" alt="Image 3" width="325"/>
+    <img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 1" width="325"/>
+    <img src="https://objects.liquidweb.services/images/201409/richard_orr_14913356819_04b763fd74_z.jpg" alt="Image 2" width="325"/>
 </div>
 
 - **Image 1:**
@@ -14,9 +13,6 @@
 
 - **Image 2:**
   [Description of Image 2]
-
-- **Image 3:**
-  [Description of Image 3]
 
 # Habitat Suitability Modeling for *Sorghastrum nutans*
 
@@ -45,24 +41,24 @@ This repository contains a habitat suitability model for *Sorghastrum nutans*. T
 
 *Sorghastrum nutans*, commonly known as Indiangrass, is a warm-season grass native to North America.
 
-### Habitat and Range
+## Habitat and Range
 
 Found in prairies, meadows, and open woodlands, with a native range extending from Canada to Mexico. Today it is generally found from the east coast to the Rocky Mountains, Arizona, Wyoming, and Utah.
 
-### Thermal Range
+## Thermal Range
 
 Thrives in warm temperatures, with optimal growth between 75 to 90 degrees Fahrenheit. Goes dormant during colder winter months. A native, warm season (C4), perennial with short, scaly rhizomes.
 
-### Physical Characteristics
+## Physical Characteristics
 
 Grows in clumps, reaching heights of 3 to 7 feet, with long, narrow, bluish-green leaves. Produces distinctive bronze-colored flower heads in late summer and fall.
 
-### Uses
+## Uses
 
 - **Forage:** Highly palatable to all classes of livestock, suitable for both grazing and hay when properly managed.
 - **Wildlife:** Provides ground cover and nesting areas for gamebirds and songbirds.
 
-### Ecological Importance
+## Ecological Importance
 
 Plays a crucial role in preventing soil erosion, providing habitat for wildlife, and contributing to ecosystem health.
 
@@ -96,30 +92,7 @@ Silletti, A., & Knapp, A. (2002). Long-term responses of the grassland co-domina
 
 Sorghastrum Nutans. Sorghastrum nutans (Indiangrass, Yellow Indiangrass) | North Carolina Extension Gardener Plant Toolbox. (n.d.). https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/
 
-
-## Project Goals
-
-1. **Reproducible Scientific Workflow:**
-   - Define the study area by downloading the USFS National Grassland Units.
-   - Fit a habitat suitability model for *Sorghastrum nutans* in selected grassland areas.
-   - Download and preprocess model variables, including soil data from the POLARIS dataset, elevation from the SRTM dataset, and climate data from the MACAv2 dataset.
-   - Calculate derived topographic variables, such as slope or aspect, using xarray-spatial.
-   - Harmonize data to ensure grid compatibility using the `ds.rio.reproject_match()` method from rioxarray.
-   - Build a habitat suitability model, allowing flexibility in the choice of the model (*fuzzy logic model* is recommended for those seeking guidance).
-
-2. **Presentation of Results:**
-   - Present results through at least one figure for each grassland/climate scenario combination.
-   - If unsure about the model choice, a *fuzzy logic model* is recommended for habitat suitability.
-   - Evaluate and interpret the results, considering optimal values for variables such as soil pH, slope, and climatological annual precipitation.
-
-3. **Documentation and Evaluation:**
-   - Develop a modular and reproducible workflow for the model, showcasing coding skills covered in the class.
-   - Provide clear documentation for each step of the workflow.
-   - Use a README file to introduce the project, its objectives, and the methodology employed.
-
-![Indian Grass Map](https://soilcropandmore.info/crops/Grasses/Indiangrass/Sorghastrum_nutans_map.jpg)
-
-## Project Workflow
+## Project Workflow - a Reproducible Scientific Workflow:
 
 ### 1. Define Study Area
 - Download the USFS National Grassland Units shapefile.
@@ -145,7 +118,9 @@ Sorghastrum Nutans. Sorghastrum nutans (Indiangrass, Yellow Indiangrass) | North
 
 
 
-Contact:
+
+
+## Contact:
 For any questions or assistance, please contact [Juilana Ruef] at [juliana.ruef@colorado.edu]. I appreciate your engagement in this habitat modeling project and look forward to your insights!
 
 
