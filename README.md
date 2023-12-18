@@ -43,7 +43,7 @@ This repository contains a habitat suitability model for *Sorghastrum nutans*. T
 
 ## About *Sorghastrum nutans*
 
-*Sorghastrum nutans*, commonly known as Indiangrass, is a warm-season grass native to North America. Key characteristics include:
+*Sorghastrum nutans*, commonly known as Indiangrass, is a warm-season grass native to North America.
 
 ### Habitat and Range
 
@@ -88,7 +88,14 @@ Indiangrass may serve as a host plant for leaf spot pathogens. Pests include rus
 
 ## Literature Cited
 
-A list of references providing further information on Indiangrass.
+Anderson, J., & Morse, S. (2012). Topographical Location Has Little Effect on Andropogon gerardii and Sorghastrum nutans. Tillers, 4, 1-3.https://digital-grinnell.nyc3.cdn.digitaloceanspaces.com/ojs-static/tillers/article/view/29/29
+
+Plant database. Lady Bird Johnson Wildflower Center - The University of Texas at Austin. (n.d.). https://www.wildflower.org/plants/result.php?id_plant=sonu2
+
+Silletti, A., & Knapp, A. (2002). Long-term responses of the grassland co-dominants Andropogon gerardii and Sorghastrum nutans to changes in climate and management. Plant Ecology, 163, 15-22.https://link.springer.com/article/10.1023/A:1020320214750
+
+Sorghastrum Nutans. Sorghastrum nutans (Indiangrass, Yellow Indiangrass) | North Carolina Extension Gardener Plant Toolbox. (n.d.). https://plants.ces.ncsu.edu/plants/sorghastrum-nutans/
+
 
 ## Project Goals
 
@@ -116,42 +123,25 @@ A list of references providing further information on Indiangrass.
 
 ### 1. Define Study Area
 - Download the USFS National Grassland Units shapefile.
-- Select study site(s) within the grasslands. Undergraduates choose one; graduates choose at least two.
+- Select study site(s) within the grasslands.
 
 ### 2. Download Model Variables
 - Utilize the APPEEARS API for at least one soil variable from the POLARIS dataset.
 - Obtain elevation data from SRTM via the APPEEARS API.
-- Access MACAv2 dataset through Climate Toolbox for at least one climate variable. Undergraduates download for a single year and scenario; graduates download at least two.
-- Calculate at least one derived topographic variable (e.g., slope or aspect) using xarray-spatial.
+- Access MACAv2 dataset
+- Calculate a derived topographic variable (e.g., slope or aspect) using xarray-spatial.
 
 ### 3. Harmonize Data
 - Ensure grid alignment for all layers using the `ds.rio.reproject_match()` method from rioxarray.
 
 ### 4. Build the Model
-- Choose a model; we recommend a fuzzy logic model.
+- Build a fuzzy logic model
 - Assign values (0 to 1) for each variable based on optimal values for S. nutans.
 - Combine layers by multiplication to get a single suitability score for each grid square.
-- Optionally, apply a threshold for visualization.
 
 ### 5. Present Results
 - Generate figures for each grassland/climate scenario using the fuzzy logic model.
 - Evaluate and visualize habitat suitability for Sorghastrum nutans.
-
-## Running the Code
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
-
-
-
-
-
-
-
-
-
 
 
 
