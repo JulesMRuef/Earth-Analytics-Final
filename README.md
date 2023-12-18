@@ -1,5 +1,8 @@
 # Habitat Suitability Modeling for Sorghastrum nutans
 
+[![DOI](https://zenodo.org/badge/687226006.svg)](https://zenodo.org/doi/10.5281/zenodo.8408496)
+
+
 <div style="text-align:center">
     <img src="https://sowwildnatives.com/images/thumbs/0000951_indian-grass-sorghastrum-nutans.jpeg" alt="Image 1" width="325"/>
     <img src="https://cdn.plantatlas.org/img/specimens/USF/32833.jpg" alt="Image 2" width="325"/>
